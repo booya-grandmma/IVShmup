@@ -50,6 +50,7 @@ public class GameManager : MonoBehaviour {
         if (!m_EnteredState) {
             m_EnteredState = true;
             GameStateEntered();
+            m_EnemiesDefeated = 0;
         }
     }
 

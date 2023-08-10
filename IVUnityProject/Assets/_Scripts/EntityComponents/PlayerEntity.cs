@@ -18,6 +18,7 @@ public class PlayerEntity : MonoBehaviour {
             case GameState.GameActive:
             m_MovementController.Reset();
             m_WeaponManager.Reset();
+            m_Damageable.Reset();
             gameObject.SetActive(true);
             break;
 
